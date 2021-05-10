@@ -15,8 +15,7 @@ fetch("https://corona.lmao.ninja/v2/countries/philippines")
         document.getElementById("Total_Test_Done").innerHTML = data.tests;
     });
 
-var formatter = new Intl.NumberFormat();
-formatter.format(number);
+
 
 
     var clockElement = document.getElementById('clock');
