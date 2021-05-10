@@ -12,10 +12,10 @@ fetch("https://corona.lmao.ninja/v2/countries/philippines")
         document.getElementById("Critical_Cases").innerHTML = data.critical;
         document.getElementById("Total_Death").innerHTML = data.deaths;
         document.getElementById("Recovered_Cases").innerHTML = data.recovered;
-        document.getElementById("Total_Test_Done").innerHTML = data.tests;
+        document.getElementById("Total_Test_Done").toLocaleString("en-US") = data.tests;
     });
 
-var string = numeral(1000).format('0,0');
+
 
 
 
