@@ -1,1 +1,2 @@
-# covidtracker
+# COVID-19 Tracker Philippines
+HTML CSS JS BOOTSTRAP
